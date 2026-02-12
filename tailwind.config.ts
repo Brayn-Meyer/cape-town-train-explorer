@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        line: {
+          southern: "hsl(var(--line-southern))",
+          northern: "hsl(var(--line-northern))",
+          "cape-flats": "hsl(var(--line-cape-flats))",
+          central: "hsl(var(--line-central))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
