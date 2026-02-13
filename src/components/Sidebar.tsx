@@ -77,12 +77,12 @@ export function Sidebar({
       </div>
 
       {/* Station list */}
-      <div className="flex-1 overflow-y-auto">
-        <div className="p-4">
+      <div className="flex-1 overflow-y-auto [direction:rtl]">  {/* Add RTL direction */}
+        <div className="p-3 [direction:ltr]">  {/* Reset direction for content */}
           <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">
             Stations ({stations.length})
           </p>
-          <div className="space-y-0.5">
+          <div className="space-y-1">
             {stations.map((station) => (
               <button
                 key={station.id}
