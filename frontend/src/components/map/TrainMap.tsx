@@ -6,6 +6,10 @@ import { createStationIcon } from "./StationIcon";
 import { StationPopupContent } from "./StationPopup";
 import type { PathOptions } from "leaflet";
 
+/* ================================
+   Props
+================================ */
+
 interface TrainMapProps {
   stations: Station[];
   routes: RoutesGeoJSON;
@@ -13,47 +17,144 @@ interface TrainMapProps {
   selectedStationId?: string | null;
 }
 
+/* ================================
+   Map Config
+================================ */
+
+const DEFAULT_CENTER: [number, number] = [-33.95218, 18.50888]; // Cape Town
+const DEFAULT_ZOOM = 10;
+
+const MAP_MIN_ZOOM = 10;
+const MAP_MAX_ZOOM = 18;
+
+// Cape Town bounding box
+const CAPE_TOWN_BOUNDS: [[number, number], [number, number]] = [
+  [-34.4, 18.2], // South West
+  [-33.7, 18.9], // North East
+];
+
+/* ================================
+   MapTiler Tile URL
+================================ */
+
+function getMapTilerTileUrl() {
+  const key = (import.meta.env.VITE_MAPTILER_KEY as string | undefined)?.trim();
+
+  if (key) {
+    return `https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=${key}`;
+  }
+
+  // Fallback to OpenStreetMap tiles when no MapTiler key is provided
+  return "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+}
+
+/* ================================
+   Fly To Station
+================================ */
+
 function FlyToStation({ station }: { station: Station | null }) {
   const map = useMap();
+
   useEffect(() => {
     if (station) {
-      map.flyTo([station.lat, station.lon], 14, { duration: 0.8 });
+      map.flyTo([station.lat, station.lon], MAP_MAX_ZOOM, {
+        duration: 0.8,
+      });
     }
   }, [station, map]);
+
   return null;
 }
 
-export function TrainMap({ stations, routes, getSchedulesForStation, selectedStationId }: TrainMapProps) {
+function ResizeMap({ watch }: { watch?: unknown }) {
+  const map = useMap();
+
+  useEffect(() => {
+    const doResize = () => {
+      // Small timeout to allow layout to settle before invalidating size
+      setTimeout(() => map.invalidateSize(), 100);
+    };
+
+    doResize();
+    window.addEventListener("resize", doResize);
+
+    return () => {
+      window.removeEventListener("resize", doResize);
+    };
+  }, [map, watch]);
+
+  return null;
+}
+
+/* ================================
+   Main Map Component
+================================ */
+
+export function TrainMap({
+  stations,
+  routes,
+  getSchedulesForStation,
+  selectedStationId,
+}: TrainMapProps) {
   const [selected, setSelected] = useState<string | null>(null);
+
   const activeId = selectedStationId ?? selected;
 
   useEffect(() => {
-    if (selectedStationId) setSelected(selectedStationId);
+    if (selectedStationId) {
+      setSelected(selectedStationId);
+    }
   }, [selectedStationId]);
 
-  const selectedStation = stations.find((s) => s.id === activeId) ?? null;
+  const selectedStation =
+    stations.find((s) => s.id === activeId) ?? null;
+
+  const mapTilerTileUrl = getMapTilerTileUrl();
+
+  /* ================================
+     Render
+  ================================ */
 
   return (
-    <MapContainer
-      center={[-33.96, 18.50]}
-      zoom={11}
-      className="h-full w-full z-0"
-      zoomControl={false}
-      maxBounds={[[-34.4, 18.2], [-33.7, 18.9]]}
-      minZoom={10}
-    >
+    <div className="map-container absolute inset-0 w-full">
+      <MapContainer
+        center={DEFAULT_CENTER}
+        zoom={DEFAULT_ZOOM}
+        className="h-full w-full z-0"
+        zoomControl={false}
+        minZoom={MAP_MIN_ZOOM}
+        maxZoom={MAP_MAX_ZOOM}
+        maxBounds={CAPE_TOWN_BOUNDS}
+        maxBoundsViscosity={1.0} // Prevents dragging out
+      >
+      {/* ===========================
+          Base Map Layer
+      =========================== */}
+
       <TileLayer
-        attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+        attribution='&copy; <a href="https://www.maptiler.com/copyright/" target="_blank" rel="noreferrer">MapTiler</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a>'
+        url={mapTilerTileUrl}
       />
 
-      <FlyToStation station={selectedStation} />
+        {/* ===========================
+          Auto Fly + Resize
+        =========================== */}
+
+        <FlyToStation station={selectedStation} />
+        <ResizeMap watch={activeId} />
+
+      {/* ===========================
+          Train Routes
+      =========================== */}
 
       <GeoJSON
-        key={routes.features.map((f) => f.properties.line).join(",")}
+        key={routes.features
+          .map((f) => f.properties.line)
+          .join(",")}
         data={routes as any}
         style={(feature) => {
           const line = feature?.properties?.line || "";
+
           return {
             color: LINE_COLORS[line] || "#888",
             weight: 4,
@@ -62,9 +163,17 @@ export function TrainMap({ stations, routes, getSchedulesForStation, selectedSta
         }}
       />
 
+      {/* ===========================
+          Stations
+      =========================== */}
+
       {stations.map((station) => {
-        const colors = station.line.map((l) => LINE_COLORS[l] || "#888");
+        const colors = station.line.map(
+          (l) => LINE_COLORS[l] || "#888"
+        );
+
         const isSelected = station.id === activeId;
+
         return (
           <Marker
             key={station.id}
@@ -84,6 +193,7 @@ export function TrainMap({ stations, routes, getSchedulesForStation, selectedSta
           </Marker>
         );
       })}
-    </MapContainer>
+      </MapContainer>
+    </div>
   );
 }
