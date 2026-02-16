@@ -24,13 +24,13 @@ interface TrainMapProps {
 const DEFAULT_CENTER: [number, number] = [-33.95218, 18.50888]; // Cape Town
 const DEFAULT_ZOOM = 10;
 
-const MAP_MIN_ZOOM = 10;
+const MAP_MIN_ZOOM = 9;
 const MAP_MAX_ZOOM = 18;
 
 // Cape Town bounding box
 const CAPE_TOWN_BOUNDS: [[number, number], [number, number]] = [
-  [-34.4, 18.2], // South West
-  [-33.7, 18.9], // North East
+  [-34.6, 17.95], // South West (expanded outward)
+  [-33.45, 19.2], // North East (expanded outward)
 ];
 
 /* ================================
@@ -125,7 +125,7 @@ export function TrainMap({
         minZoom={MAP_MIN_ZOOM}
         maxZoom={MAP_MAX_ZOOM}
         maxBounds={CAPE_TOWN_BOUNDS}
-        maxBoundsViscosity={1.0} // Prevents dragging out
+        maxBoundsViscosity={0.2} // Prevents dragging out
       >
       {/* ===========================
           Base Map Layer
