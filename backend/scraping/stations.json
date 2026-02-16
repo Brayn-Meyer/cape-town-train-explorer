@@ -1,0 +1,972 @@
+[
+  {
+    "name": "Acacia Park",
+    "lat": -33.894691,
+    "lon": 18.52878,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Athlone",
+    "lat": -33.96272,
+    "lon": 18.501726,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Avondale",
+    "lat": -33.897774,
+    "lon": 18.593085,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Belhar",
+    "lat": -33.939525,
+    "lon": 18.609041,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Bellville",
+    "lat": -33.906432,
+    "lon": 18.627061,
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Blackheath",
+    "lat": -33.964326,
+    "lon": 18.701548,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Bonteheuwel",
+    "lat": -33.941982,
+    "lon": 18.549996,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Brackenfell",
+    "lat": -33.880844,
+    "lon": 18.688643,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Cape Point Funicular (Lower)",
+    "lat": -34.350656,
+    "lon": 18.484679,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Cape Point Funicular (Upper)",
+    "lat": -34.35336,
+    "lon": 18.489263,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Cape Town Station",
+    "lat": -33.922422,
+    "lon": 18.426352,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Century City",
+    "lat": -33.901309,
+    "lon": 18.511512,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Chempet",
+    "lat": -33.861498,
+    "lon": 18.528633,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Chris Hani",
+    "lat": -34.054806,
+    "lon": 18.70906,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Claremont",
+    "lat": -33.981706,
+    "lon": 18.467143,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Crawford",
+    "lat": -33.976428,
+    "lon": 18.50136,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Dal Josafat",
+    "lat": -33.706561,
+    "lon": 18.98034,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "De Grendel",
+    "lat": -33.893481,
+    "lon": 18.578725,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Diep River",
+    "lat": -34.035425,
+    "lon": 18.467043,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Du Toit",
+    "lat": -33.923828,
+    "lon": 18.854181,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Eerste River",
+    "lat": -34.00075,
+    "lon": 18.730967,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Eikenfontein",
+    "lat": -33.857088,
+    "lon": 18.711334,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Elsies River",
+    "lat": -33.910523,
+    "lon": 18.569139,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Esplanade",
+    "lat": -33.923687,
+    "lon": 18.445966,
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "False Bay",
+    "lat": -34.102431,
+    "lon": 18.468792,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Faure",
+    "lat": -34.026323,
+    "lon": 18.747291,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Firgrove",
+    "lat": -34.055532,
+    "lon": 18.792564,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Fisantkraal",
+    "lat": -33.785941,
+    "lon": 18.711433,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Fish Hoek",
+    "lat": -34.137134,
+    "lon": 18.432552,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Glencairn",
+    "lat": -34.163462,
+    "lon": 18.43201,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Goodwood",
+    "lat": -33.914458,
+    "lon": 18.547541,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Groot-Drakenstein",
+    "lat": -33.863792,
+    "lon": 18.976408,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Harfield Road",
+    "lat": -33.988435,
+    "lon": 18.471315,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Hazendal",
+    "lat": -33.95319,
+    "lon": 18.502489,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Heathfield",
+    "lat": -34.045897,
+    "lon": 18.465584,
+    "lines": [
+      "Cape Flats Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Heideveld",
+    "lat": -33.969931,
+    "lon": 18.561768,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Huguenot",
+    "lat": -33.729304,
+    "lon": 18.976682,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Kalk Bay",
+    "lat": -34.126267,
+    "lon": 18.45008,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Kapteinsklip Station",
+    "lat": -34.06705,
+    "lon": 18.620732,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Kenilworth",
+    "lat": -33.995297,
+    "lon": 18.473023,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Kentemade",
+    "lat": -33.91301,
+    "lon": 18.497761,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Khayelitsha",
+    "lat": -34.047994,
+    "lon": 18.670786,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Klapmuts",
+    "lat": -33.806312,
+    "lon": 18.869738,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Klipheuwel",
+    "lat": -33.699271,
+    "lon": 18.700642,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Koeberg Road",
+    "lat": -33.925727,
+    "lon": 18.478797,
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Koelenhof",
+    "lat": -33.873954,
+    "lon": 18.819567,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Kraaifontein",
+    "lat": -33.84708,
+    "lon": 18.723979,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Kuils River",
+    "lat": -33.933668,
+    "lon": 18.677695,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Kuyasa",
+    "lat": -34.054895,
+    "lon": 18.694753,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Lakeside",
+    "lat": -34.088459,
+    "lon": 18.462492,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Langa",
+    "lat": -33.939042,
+    "lon": 18.52997,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Lansdowne",
+    "lat": -33.987592,
+    "lon": 18.50393,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Lavistown",
+    "lat": -33.943387,
+    "lon": 18.583784,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Lentegeur",
+    "lat": -34.034301,
+    "lon": 18.611308,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Lynedoch",
+    "lat": -33.981334,
+    "lon": 18.771247,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Maitland",
+    "lat": -33.924697,
+    "lon": 18.487051,
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Mandalay",
+    "lat": -34.018922,
+    "lon": 18.624577,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Mbekweni",
+    "lat": -33.674124,
+    "lon": 18.985499,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Mellish",
+    "lat": -33.760149,
+    "lon": 18.71838,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Melton Rose",
+    "lat": -33.989556,
+    "lon": 18.720553,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Mikpunt",
+    "lat": -33.722079,
+    "lon": 18.707539,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Mitchell's Plain",
+    "lat": -34.04953,
+    "lon": 18.61916,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Monte Vista",
+    "lat": -33.891643,
+    "lon": 18.548961,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Mowbray",
+    "lat": -33.946616,
+    "lon": 18.473901,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Muizenberg",
+    "lat": -34.109323,
+    "lon": 18.468066,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Muldersvlei",
+    "lat": -33.831116,
+    "lon": 18.828006,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Mutual",
+    "lat": -33.922263,
+    "lon": 18.513083,
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Ndabeni",
+    "lat": -33.929433,
+    "lon": 18.494643,
+    "lines": [
+      "Cape Flats Line",
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Netreg",
+    "lat": -33.952469,
+    "lon": 18.563663,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Newlands",
+    "lat": -33.974217,
+    "lon": 18.467607,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Nolungile",
+    "lat": -34.016955,
+    "lon": 18.648977,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Nonkqubela",
+    "lat": -34.026967,
+    "lon": 18.663146,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Nyanga",
+    "lat": -33.992865,
+    "lon": 18.56001,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Observatory",
+    "lat": -33.937957,
+    "lon": 18.471501,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Oosterzee",
+    "lat": -33.900406,
+    "lon": 18.606845,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Oosterzee",
+    "lat": -33.899876,
+    "lon": 18.607028,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Ottery",
+    "lat": -34.013491,
+    "lon": 18.4952,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Paarden Eiland",
+    "lat": -33.922474,
+    "lon": 18.466955,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Paarl",
+    "lat": -33.764976,
+    "lon": 18.964731,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Parow",
+    "lat": -33.909588,
+    "lon": 18.586241,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Pentech",
+    "lat": -33.934812,
+    "lon": 18.646105,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Philippi",
+    "lat": -34.01334,
+    "lon": 18.585313,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Pinelands",
+    "lat": -33.939601,
+    "lon": 18.490656,
+    "lines": [
+      "Cape Flats Line",
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Plumstead",
+    "lat": -34.021943,
+    "lon": 18.469719,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Retreat",
+    "lat": -34.060515,
+    "lon": 18.463551,
+    "lines": [
+      "Cape Flats Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Rondebosch",
+    "lat": -33.962164,
+    "lon": 18.472336,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Rosebank",
+    "lat": -33.954731,
+    "lon": 18.473145,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Salt River",
+    "lat": -33.927229,
+    "lon": 18.465014,
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Sarepta",
+    "lat": -33.926692,
+    "lon": 18.661232,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Simon's Town",
+    "lat": -34.186815,
+    "lon": 18.425507,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Simondium",
+    "lat": -33.834025,
+    "lon": 18.953549,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Sir Lowry's Pass Railway Station",
+    "lat": -34.118288,
+    "lon": 18.909936,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Somerset West",
+    "lat": -34.084345,
+    "lon": 18.841468,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Southfield",
+    "lat": -34.032957,
+    "lon": 18.481678,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Spier",
+    "lat": -33.972871,
+    "lon": 18.782029,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "St James",
+    "lat": -34.1193,
+    "lon": 18.458455,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Steenberg",
+    "lat": -34.076667,
+    "lon": 18.463673,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Steenbras",
+    "lat": -34.146204,
+    "lon": 18.941774,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Stellenbosch",
+    "lat": -33.938817,
+    "lon": 18.849678,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Steurhof",
+    "lat": -34.029127,
+    "lon": 18.468875,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Stikland",
+    "lat": -33.904477,
+    "lon": 18.657198,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Stock Road",
+    "lat": -34.014179,
+    "lon": 18.606385,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Strand",
+    "lat": -34.114901,
+    "lon": 18.832383,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Sunny Cove",
+    "lat": -34.144301,
+    "lon": 18.437119,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "The \"Blue Train\"",
+    "lat": -33.902529,
+    "lon": 18.398886,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Thornton",
+    "lat": -33.918852,
+    "lon": 18.532503,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Tygerberg",
+    "lat": -33.907452,
+    "lon": 18.601293,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Unibell",
+    "lat": -33.937046,
+    "lon": 18.628595,
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Van der Stel",
+    "lat": -34.094979,
+    "lon": 18.853055,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Vasco",
+    "lat": -33.9112,
+    "lon": 18.558435,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Vlottenburg",
+    "lat": -33.962044,
+    "lon": 18.799883,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Wellington",
+    "lat": -33.634686,
+    "lon": 18.992048,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Wetton",
+    "lat": -34.001981,
+    "lon": 18.501131,
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Wintervogel",
+    "lat": -33.629558,
+    "lon": 18.670028,
+    "lines": [
+      "Unknown"
+    ]
+  },
+  {
+    "name": "Wittebome",
+    "lat": -34.013977,
+    "lon": 18.470768,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Woltemade",
+    "lat": -33.922133,
+    "lon": 18.507643,
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Woodstock",
+    "lat": -33.925313,
+    "lon": 18.446164,
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Wynberg",
+    "lat": -34.004862,
+    "lon": 18.47123,
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Ysterplaat",
+    "lat": -33.920021,
+    "lon": 18.4767,
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  }
+]
