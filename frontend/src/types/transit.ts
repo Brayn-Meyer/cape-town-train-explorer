@@ -30,7 +30,7 @@ export const LINE_COLORS: Record<string, string> = {
   Southern: "#2563EB",
   Northern: "#DC2626",
   Central: "#16A34A",
-  "Cape Flats": "#CA8A04",
+  "Cape Flats": "#ff9e3e",
 };
 
 export const ALL_LINES = ["Southern", "Northern", "Central", "Cape Flats"];
