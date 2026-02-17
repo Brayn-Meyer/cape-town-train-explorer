@@ -1,0 +1,1676 @@
+[
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "16/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9400",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "05:06",
+                        "Langa "
+                    ],
+                    [
+                        "05:45",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:40",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 87,
+                "train_numbers": [
+                    "9402",
+                    "2300",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:51",
+                        "Langa "
+                    ],
+                    [
+                        "06:01",
+                        "Mutual "
+                    ],
+                    [
+                        "06:21",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:56",
+                        "Mutual "
+                    ],
+                    [
+                        "06:10",
+                        "Salt River "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9900",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:15",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:10",
+                        "Cape Town "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 72,
+                "train_numbers": [
+                    "9404",
+                    "0505",
+                    "0115"
+                ],
+                "departures": [
+                    [
+                        "06:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:41",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:24",
+                        "Retreat "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:39",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:05",
+                        "Retreat "
+                    ],
+                    [
+                        "07:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "16/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 80,
+                "train_numbers": [
+                    "0102",
+                    "2303",
+                    "9403"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:01",
+                        "Salt River "
+                    ],
+                    [
+                        "06:15",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:52",
+                        "Salt River "
+                    ],
+                    [
+                        "06:13",
+                        "Mutual "
+                    ],
+                    [
+                        "06:20",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 97,
+                "train_numbers": [
+                    "0102",
+                    "9903"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:05",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:03",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:37",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 90,
+                "train_numbers": [
+                    "0106",
+                    "2505",
+                    "9005"
+                ],
+                "departures": [
+                    [
+                        "05:30",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:36",
+                        "Salt River "
+                    ],
+                    [
+                        "06:55",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:22",
+                        "Salt River "
+                    ],
+                    [
+                        "06:48",
+                        "Mutual "
+                    ],
+                    [
+                        "07:00",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 57,
+                "train_numbers": [
+                    "0112",
+                    "0506",
+                    "9405"
+                ],
+                "departures": [
+                    [
+                        "06:15",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:40",
+                        "Retreat "
+                    ],
+                    [
+                        "07:06",
+                        "Pinelands "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:32",
+                        "Retreat "
+                    ],
+                    [
+                        "07:04",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:12",
+                        "Langa "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "17/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9400",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "05:06",
+                        "Langa "
+                    ],
+                    [
+                        "05:45",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:40",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 87,
+                "train_numbers": [
+                    "9402",
+                    "2300",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:51",
+                        "Langa "
+                    ],
+                    [
+                        "06:01",
+                        "Mutual "
+                    ],
+                    [
+                        "06:21",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:56",
+                        "Mutual "
+                    ],
+                    [
+                        "06:10",
+                        "Salt River "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9900",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:15",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:10",
+                        "Cape Town "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 72,
+                "train_numbers": [
+                    "9404",
+                    "0505",
+                    "0115"
+                ],
+                "departures": [
+                    [
+                        "06:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:41",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:24",
+                        "Retreat "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:39",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:05",
+                        "Retreat "
+                    ],
+                    [
+                        "07:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "17/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 80,
+                "train_numbers": [
+                    "0102",
+                    "2303",
+                    "9403"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:01",
+                        "Salt River "
+                    ],
+                    [
+                        "06:15",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:52",
+                        "Salt River "
+                    ],
+                    [
+                        "06:13",
+                        "Mutual "
+                    ],
+                    [
+                        "06:20",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 97,
+                "train_numbers": [
+                    "0102",
+                    "9903"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:05",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:03",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:37",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 90,
+                "train_numbers": [
+                    "0106",
+                    "2505",
+                    "9005"
+                ],
+                "departures": [
+                    [
+                        "05:30",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:36",
+                        "Salt River "
+                    ],
+                    [
+                        "06:55",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:22",
+                        "Salt River "
+                    ],
+                    [
+                        "06:48",
+                        "Mutual "
+                    ],
+                    [
+                        "07:00",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 57,
+                "train_numbers": [
+                    "0112",
+                    "0506",
+                    "9405"
+                ],
+                "departures": [
+                    [
+                        "06:15",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:40",
+                        "Retreat "
+                    ],
+                    [
+                        "07:06",
+                        "Pinelands "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:32",
+                        "Retreat "
+                    ],
+                    [
+                        "07:04",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:12",
+                        "Langa "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "18/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9400",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "05:06",
+                        "Langa "
+                    ],
+                    [
+                        "05:45",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:40",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 87,
+                "train_numbers": [
+                    "9402",
+                    "2300",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:51",
+                        "Langa "
+                    ],
+                    [
+                        "06:01",
+                        "Mutual "
+                    ],
+                    [
+                        "06:21",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:56",
+                        "Mutual "
+                    ],
+                    [
+                        "06:10",
+                        "Salt River "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9900",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:15",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:10",
+                        "Cape Town "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 72,
+                "train_numbers": [
+                    "9404",
+                    "0505",
+                    "0115"
+                ],
+                "departures": [
+                    [
+                        "06:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:41",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:24",
+                        "Retreat "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:39",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:05",
+                        "Retreat "
+                    ],
+                    [
+                        "07:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "18/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 80,
+                "train_numbers": [
+                    "0102",
+                    "2303",
+                    "9403"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:01",
+                        "Salt River "
+                    ],
+                    [
+                        "06:15",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:52",
+                        "Salt River "
+                    ],
+                    [
+                        "06:13",
+                        "Mutual "
+                    ],
+                    [
+                        "06:20",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 97,
+                "train_numbers": [
+                    "0102",
+                    "9903"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:05",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:03",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:37",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 90,
+                "train_numbers": [
+                    "0106",
+                    "2505",
+                    "9005"
+                ],
+                "departures": [
+                    [
+                        "05:30",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:36",
+                        "Salt River "
+                    ],
+                    [
+                        "06:55",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:22",
+                        "Salt River "
+                    ],
+                    [
+                        "06:48",
+                        "Mutual "
+                    ],
+                    [
+                        "07:00",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 57,
+                "train_numbers": [
+                    "0112",
+                    "0506",
+                    "9405"
+                ],
+                "departures": [
+                    [
+                        "06:15",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:40",
+                        "Retreat "
+                    ],
+                    [
+                        "07:06",
+                        "Pinelands "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:32",
+                        "Retreat "
+                    ],
+                    [
+                        "07:04",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:12",
+                        "Langa "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "19/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9400",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "05:06",
+                        "Langa "
+                    ],
+                    [
+                        "05:45",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:40",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 87,
+                "train_numbers": [
+                    "9402",
+                    "2300",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:51",
+                        "Langa "
+                    ],
+                    [
+                        "06:01",
+                        "Mutual "
+                    ],
+                    [
+                        "06:21",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:56",
+                        "Mutual "
+                    ],
+                    [
+                        "06:10",
+                        "Salt River "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9900",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:15",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:10",
+                        "Cape Town "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 72,
+                "train_numbers": [
+                    "9404",
+                    "0505",
+                    "0115"
+                ],
+                "departures": [
+                    [
+                        "06:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:41",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:24",
+                        "Retreat "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:39",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:05",
+                        "Retreat "
+                    ],
+                    [
+                        "07:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "19/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 80,
+                "train_numbers": [
+                    "0102",
+                    "2303",
+                    "9403"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:01",
+                        "Salt River "
+                    ],
+                    [
+                        "06:15",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:52",
+                        "Salt River "
+                    ],
+                    [
+                        "06:13",
+                        "Mutual "
+                    ],
+                    [
+                        "06:20",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 97,
+                "train_numbers": [
+                    "0102",
+                    "9903"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:05",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:03",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:37",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 90,
+                "train_numbers": [
+                    "0106",
+                    "2505",
+                    "9005"
+                ],
+                "departures": [
+                    [
+                        "05:30",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:36",
+                        "Salt River "
+                    ],
+                    [
+                        "06:55",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:22",
+                        "Salt River "
+                    ],
+                    [
+                        "06:48",
+                        "Mutual "
+                    ],
+                    [
+                        "07:00",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 57,
+                "train_numbers": [
+                    "0112",
+                    "0506",
+                    "9405"
+                ],
+                "departures": [
+                    [
+                        "06:15",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:40",
+                        "Retreat "
+                    ],
+                    [
+                        "07:06",
+                        "Pinelands "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:32",
+                        "Retreat "
+                    ],
+                    [
+                        "07:04",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:12",
+                        "Langa "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "20/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9400",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "05:06",
+                        "Langa "
+                    ],
+                    [
+                        "05:45",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:40",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 87,
+                "train_numbers": [
+                    "9402",
+                    "2300",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:51",
+                        "Langa "
+                    ],
+                    [
+                        "06:01",
+                        "Mutual "
+                    ],
+                    [
+                        "06:21",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:56",
+                        "Mutual "
+                    ],
+                    [
+                        "06:10",
+                        "Salt River "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "9900",
+                    "0113"
+                ],
+                "departures": [
+                    [
+                        "05:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:15",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:10",
+                        "Cape Town "
+                    ],
+                    [
+                        "07:18",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 72,
+                "train_numbers": [
+                    "9404",
+                    "0505",
+                    "0115"
+                ],
+                "departures": [
+                    [
+                        "06:36",
+                        "Langa "
+                    ],
+                    [
+                        "06:41",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:24",
+                        "Retreat "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:39",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:05",
+                        "Retreat "
+                    ],
+                    [
+                        "07:48",
+                        "Fish Hoek "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "20/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 80,
+                "train_numbers": [
+                    "0102",
+                    "2303",
+                    "9403"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:01",
+                        "Salt River "
+                    ],
+                    [
+                        "06:15",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "05:52",
+                        "Salt River "
+                    ],
+                    [
+                        "06:13",
+                        "Mutual "
+                    ],
+                    [
+                        "06:20",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 97,
+                "train_numbers": [
+                    "0102",
+                    "9903"
+                ],
+                "departures": [
+                    [
+                        "05:00",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:05",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:03",
+                        "Cape Town "
+                    ],
+                    [
+                        "06:37",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 90,
+                "train_numbers": [
+                    "0106",
+                    "2505",
+                    "9005"
+                ],
+                "departures": [
+                    [
+                        "05:30",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:36",
+                        "Salt River "
+                    ],
+                    [
+                        "06:55",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:22",
+                        "Salt River "
+                    ],
+                    [
+                        "06:48",
+                        "Mutual "
+                    ],
+                    [
+                        "07:00",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 57,
+                "train_numbers": [
+                    "0112",
+                    "0506",
+                    "9405"
+                ],
+                "departures": [
+                    [
+                        "06:15",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:40",
+                        "Retreat "
+                    ],
+                    [
+                        "07:06",
+                        "Pinelands "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:32",
+                        "Retreat "
+                    ],
+                    [
+                        "07:04",
+                        "Pinelands "
+                    ],
+                    [
+                        "07:12",
+                        "Langa "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "21/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 103,
+                "train_numbers": [
+                    "9300",
+                    "0105"
+                ],
+                "departures": [
+                    [
+                        "06:00",
+                        "Langa "
+                    ],
+                    [
+                        "06:50",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:22",
+                        "Salt River "
+                    ],
+                    [
+                        "07:43",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 107,
+                "train_numbers": [
+                    "9402",
+                    "0107"
+                ],
+                "departures": [
+                    [
+                        "06:36",
+                        "Langa "
+                    ],
+                    [
+                        "07:20",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "07:12",
+                        "Cape Town "
+                    ],
+                    [
+                        "08:23",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 103,
+                "train_numbers": [
+                    "9302",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "07:20",
+                        "Langa "
+                    ],
+                    [
+                        "08:10",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "07:42",
+                        "Salt River "
+                    ],
+                    [
+                        "09:03",
+                        "Fish Hoek "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 94,
+                "train_numbers": [
+                    "9902",
+                    "0109"
+                ],
+                "departures": [
+                    [
+                        "07:29",
+                        "Langa "
+                    ],
+                    [
+                        "08:02",
+                        "Woodstock "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "07:55",
+                        "Esplanade "
+                    ],
+                    [
+                        "09:03",
+                        "Fish Hoek "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "21/02/2026",
+        "routes": [
+            {
+                "option": 1,
+                "duration_minutes": 75,
+                "train_numbers": [
+                    "0102",
+                    "9301"
+                ],
+                "departures": [
+                    [
+                        "05:55",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "06:48",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "06:46",
+                        "Salt River "
+                    ],
+                    [
+                        "07:10",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 2,
+                "duration_minutes": 102,
+                "train_numbers": [
+                    "0104",
+                    "9405"
+                ],
+                "departures": [
+                    [
+                        "06:35",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "07:45",
+                        "Cape Town "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "07:38",
+                        "Cape Town "
+                    ],
+                    [
+                        "08:17",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 3,
+                "duration_minutes": 75,
+                "train_numbers": [
+                    "0106",
+                    "9303"
+                ],
+                "departures": [
+                    [
+                        "07:15",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "08:08",
+                        "Salt River "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "08:06",
+                        "Salt River "
+                    ],
+                    [
+                        "08:30",
+                        "Langa "
+                    ]
+                ]
+            },
+            {
+                "option": 4,
+                "duration_minutes": 90,
+                "train_numbers": [
+                    "0108",
+                    "2505",
+                    "9005"
+                ],
+                "departures": [
+                    [
+                        "07:55",
+                        "Fish Hoek "
+                    ],
+                    [
+                        "09:06",
+                        "Salt River "
+                    ],
+                    [
+                        "09:20",
+                        "Mutual "
+                    ]
+                ],
+                "arrivals": [
+                    [
+                        "08:46",
+                        "Salt River "
+                    ],
+                    [
+                        "09:18",
+                        "Mutual "
+                    ],
+                    [
+                        "09:25",
+                        "Langa "
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "from": "Langa",
+        "to": "Fish Hoek",
+        "date": "22/02/2026",
+        "routes": []
+    },
+    {
+        "from": "Fish Hoek",
+        "to": "Langa",
+        "date": "22/02/2026",
+        "routes": []
+    }
+]

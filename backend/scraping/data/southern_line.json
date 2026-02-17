@@ -1,0 +1,4372 @@
+{
+    "Cape Town": {
+        "Woodstock": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "8",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Salt River": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Observatory": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Mowbray": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "11",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "11",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "11",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "11",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Rondebosch": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "19",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "19",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "19",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "19",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Newlands": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Claremont": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Kenilworth": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Harfield Road": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Wynberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "26",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "67",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Plumstead": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "30",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "34",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "34",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Steenberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Retreat": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "44",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "39",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "39",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Lakeside": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "44",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "44",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "44",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "44",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "False Bay": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "51",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "51",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "51",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "51",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Muizenberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "49",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "49",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "49",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "49",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "St James": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "56",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "56",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "56",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "56",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Kalk Bay": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "54",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "54",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "54",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "54",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "58",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "58",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "58",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "58",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Fish Hoek": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "63",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Sunny Cove": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "68",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "68",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "68",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "68",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "99",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "79",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "79",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "79",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Glencairn": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "77",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "77",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "77",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "77",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "108",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "88",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "88",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "88",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Simon's Town": {
+            "weekday": [],
+            "saturday": [],
+            "sunday": []
+        }
+    },
+    "Woodstock": {
+        "Cape Town": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Salt River": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Observatory": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Mowbray": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Rondebosch": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "13",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Newlands": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "21",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "21",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "21",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "21",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Claremont": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "23",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "23",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "23",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "23",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Kenilworth": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "22",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "27",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "27",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "27",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "27",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Harfield Road": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "25",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "25",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "25",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "25",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Wynberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "65",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "29",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "29",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "29",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Plumstead": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "28",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "61",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "33",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "33",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "51",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Steenberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "40",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Retreat": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "37",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "37",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Lakeside": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "42",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "False Bay": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "45",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Muizenberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "St James": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "50",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "55",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "55",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "55",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "55",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Kalk Bay": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "52",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Fish Hoek": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "61",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "61",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "61",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "61",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Sunny Cove": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "66",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "66",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "66",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "66",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "98",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "78",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "78",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "78",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Glencairn": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "75",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "75",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "75",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "75",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "107",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "87",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "87",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "87",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Simon's Town": {
+            "weekday": [],
+            "saturday": [],
+            "sunday": []
+        }
+    },
+    "Salt River": {
+        "Cape Town": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "10",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "11",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "11",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "8",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "10",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Woodstock": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "4",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Observatory": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Mowbray": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "5",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Rondebosch": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Newlands": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Claremont": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Kenilworth": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "18",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Harfield Road": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "16",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Wynberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "20",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Plumstead": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "24",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "47",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Steenberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "36",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Retreat": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "33",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "33",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "34",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "34",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "34",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "33",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "33",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Lakeside": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "38",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "False Bay": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "41",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Muizenberg": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "43",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "St James": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "46",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Kalk Bay": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "48",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Fish Hoek": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "57",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "53",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Sunny Cove": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "62",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "89",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "69",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "69",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "69",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Glencairn": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "71",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "71",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "71",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "71",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "98",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "78",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "78",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "78",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Simon's Town": {
+            "weekday": [],
+            "saturday": [],
+            "sunday": []
+        }
+    },
+    "Observatory": {
+        "Cape Town": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "14",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "15",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Woodstock": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "7",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "12",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Salt River": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "3",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Mowbray": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "2",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Rondebosch": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "6",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        },
+        "Newlands": {
+            "weekday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "saturday": [
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                },
+                {
+                    "departure": null,
+                    "arrival": null,
+                    "duration": "9",
+                    "train_number": null,
+                    "stops": []
+                }
+            ],
+            "sunday": []
+        }
+    }
+}
