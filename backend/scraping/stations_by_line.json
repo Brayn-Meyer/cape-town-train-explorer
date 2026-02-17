@@ -1,0 +1,605 @@
+[
+  {
+    "name": "Cape Town",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Woodstock",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Salt River",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Observatory",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Mowbray",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Rosebank",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Rondebosch",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Newlands",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Claremont",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Harfield Rd",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Kenilworth",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Wynberg",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Wittebome",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Plumstead",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Steurhof",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Dieprivier",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Heathfield",
+    "lines": [
+      "Cape Flats Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Retreat",
+    "lines": [
+      "Cape Flats Line",
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Steenberg",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Lakeside",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "False Bay",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Muizenberg",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "St James",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Kalk Bay",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Fish Hoek",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Sunny Cove",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Glencairn",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Simonstown",
+    "lines": [
+      "Southern Line"
+    ]
+  },
+  {
+    "name": "Esplanade",
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Ysterplaat",
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Kentemade",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Century City",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Akasia Park",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Monte Vista",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "De Grendel",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Avondale",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Oosterzee",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Koeberg Road",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Maitland",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Woltemade",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Mutual",
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Thornton",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Goodwood",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Vasco",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Elsies River",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Parow",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Tygerberg",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Bellville",
+    "lines": [
+      "Central Line",
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Kuils River",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Blackheath",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Meltonrose",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Eerste River",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Faure",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Firgrove",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Somerset West",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Van Der Stel",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Strand",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Lynedoch",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Vlottenburg",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Stellenbosch",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Du Toit",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Stikland",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Brackenfell",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Eikenfontein",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Kraaifontein",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Muldersvlei",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Klapmuts",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Paarl",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Huguenot",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Dal Josafat",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Mbekweni",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Wellington",
+    "lines": [
+      "Northern Line"
+    ]
+  },
+  {
+    "name": "Ndabeni",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Pinelands",
+    "lines": [
+      "Cape Flats Line",
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Langa",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Bonteheuwel",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Nyanga",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Philippi",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Stock Road",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Mandalay",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Nolungile",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Nonkqubela",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Khayelitsha",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Kuyasa",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Chris Hani",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Lavistown",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Belhar",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Unibell",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Pentech",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Sarepta",
+    "lines": [
+      "Central Line"
+    ]
+  },
+  {
+    "name": "Hazendal",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Athlone",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Crawford",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Lansdowne",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Wetton",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Ottery",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  },
+  {
+    "name": "Southfield",
+    "lines": [
+      "Cape Flats Line"
+    ]
+  }
+]
