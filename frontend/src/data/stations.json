@@ -1,31 +1,1049 @@
 [
-  { "id": "cape_town", "name": "Cape Town", "lat": -33.9228, "lon": 18.4245, "line": ["Southern", "Northern", "Central", "Cape Flats"] },
-  { "id": "woodstock", "name": "Woodstock", "lat": -33.9268, "lon": 18.4441, "line": ["Southern", "Central"] },
-  { "id": "salt_river", "name": "Salt River", "lat": -33.9268, "lon": 18.4631, "line": ["Southern", "Northern", "Central", "Cape Flats"] },
-  { "id": "observatory", "name": "Observatory", "lat": -33.9370, "lon": 18.4720, "line": ["Southern"] },
-  { "id": "mowbray", "name": "Mowbray", "lat": -33.9467, "lon": 18.4740, "line": ["Southern"] },
-  { "id": "rosebank", "name": "Rosebank", "lat": -33.9527, "lon": 18.4735, "line": ["Southern"] },
-  { "id": "rondebosch", "name": "Rondebosch", "lat": -33.9597, "lon": 18.4720, "line": ["Southern"] },
-  { "id": "newlands", "name": "Newlands", "lat": -33.9698, "lon": 18.4649, "line": ["Southern"] },
-  { "id": "claremont", "name": "Claremont", "lat": -33.9788, "lon": 18.4615, "line": ["Southern"] },
-  { "id": "wynberg", "name": "Wynberg", "lat": -33.9942, "lon": 18.4618, "line": ["Southern"] },
-  { "id": "kenilworth", "name": "Kenilworth", "lat": -33.9888, "lon": 18.4615, "line": ["Southern"] },
-  { "id": "simons_town", "name": "Simon's Town", "lat": -34.1917, "lon": 18.4320, "line": ["Southern"] },
-  { "id": "fish_hoek", "name": "Fish Hoek", "lat": -34.1370, "lon": 18.4295, "line": ["Southern"] },
-  { "id": "muizenberg", "name": "Muizenberg", "lat": -34.1088, "lon": 18.4690, "line": ["Southern"] },
-  { "id": "retreat", "name": "Retreat", "lat": -34.0558, "lon": 18.4770, "line": ["Southern", "Cape Flats"] },
-  { "id": "bellville", "name": "Bellville", "lat": -33.8988, "lon": 18.6280, "line": ["Northern", "Central"] },
-  { "id": "parow", "name": "Parow", "lat": -33.9040, "lon": 18.5880, "line": ["Northern"] },
-  { "id": "goodwood", "name": "Goodwood", "lat": -33.9105, "lon": 18.5585, "line": ["Northern"] },
-  { "id": "maitland", "name": "Maitland", "lat": -33.9165, "lon": 18.4930, "line": ["Northern"] },
-  { "id": "ndabeni", "name": "Ndabeni", "lat": -33.9220, "lon": 18.4860, "line": ["Northern"] },
-  { "id": "pinelands", "name": "Pinelands", "lat": -33.9350, "lon": 18.5085, "line": ["Central"] },
-  { "id": "langa", "name": "Langa", "lat": -33.9378, "lon": 18.5240, "line": ["Central"] },
-  { "id": "mutual", "name": "Mutual", "lat": -33.9298, "lon": 18.5038, "line": ["Central"] },
-  { "id": "athlone", "name": "Athlone", "lat": -33.9618, "lon": 18.5030, "line": ["Cape Flats"] },
-  { "id": "crawford", "name": "Crawford", "lat": -33.9508, "lon": 18.4960, "line": ["Cape Flats"] },
-  { "id": "lansdowne", "name": "Lansdowne", "lat": -33.9778, "lon": 18.5070, "line": ["Cape Flats"] },
-  { "id": "philippi", "name": "Philippi", "lat": -34.0028, "lon": 18.5330, "line": ["Cape Flats"] },
-  { "id": "mitchells_plain", "name": "Mitchells Plain", "lat": -34.0488, "lon": 18.6175, "line": ["Cape Flats"] },
-  { "id": "khayelitsha", "name": "Khayelitsha", "lat": -34.0388, "lon": 18.6720, "line": ["Cape Flats"] }
+  {
+    "id": "acacia_park",
+    "name": "Acacia Park",
+    "lat": -33.894691,
+    "lon": 18.52878,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "athlone",
+    "name": "Athlone",
+    "lat": -33.96272,
+    "lon": 18.501726,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "avondale",
+    "name": "Avondale",
+    "lat": -33.897774,
+    "lon": 18.593085,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "belhar",
+    "name": "Belhar",
+    "lat": -33.939525,
+    "lon": 18.609041,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "bellville",
+    "name": "Bellville",
+    "lat": -33.906432,
+    "lon": 18.627061,
+    "line": [
+      "Central",
+      "Northern"
+    ]
+  },
+  {
+    "id": "blackheath",
+    "name": "Blackheath",
+    "lat": -33.964326,
+    "lon": 18.701548,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "bonteheuwel",
+    "name": "Bonteheuwel",
+    "lat": -33.941982,
+    "lon": 18.549996,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "brackenfell",
+    "name": "Brackenfell",
+    "lat": -33.880844,
+    "lon": 18.688643,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "cape_town",
+    "name": "Cape Town",
+    "lat": -33.922422,
+    "lon": 18.426352,
+    "line": [
+      "Cape Flats",
+      "Central",
+      "Northern",
+      "Southern"
+    ]
+  },
+  {
+    "id": "century_city",
+    "name": "Century City",
+    "lat": -33.901309,
+    "lon": 18.511512,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "chempet",
+    "name": "Chempet",
+    "lat": -33.861498,
+    "lon": 18.528633,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "chris_hani",
+    "name": "Chris Hani",
+    "lat": -34.054806,
+    "lon": 18.70906,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "claremont",
+    "name": "Claremont",
+    "lat": -33.981706,
+    "lon": 18.467143,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "crawford",
+    "name": "Crawford",
+    "lat": -33.976428,
+    "lon": 18.50136,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "dal_josafat",
+    "name": "Dal Josafat",
+    "lat": -33.706561,
+    "lon": 18.98034,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "de_grendel",
+    "name": "De Grendel",
+    "lat": -33.893481,
+    "lon": 18.578725,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "diep_river",
+    "name": "Diep River",
+    "lat": -34.035425,
+    "lon": 18.467043,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "du_toit",
+    "name": "Du Toit",
+    "lat": -33.923828,
+    "lon": 18.854181,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "eerste_river",
+    "name": "Eerste River",
+    "lat": -34.00075,
+    "lon": 18.730967,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "eikenfontein",
+    "name": "Eikenfontein",
+    "lat": -33.857088,
+    "lon": 18.711334,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "elsies_river",
+    "name": "Elsies River",
+    "lat": -33.910523,
+    "lon": 18.569139,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "esplanade",
+    "name": "Esplanade",
+    "lat": -33.923687,
+    "lon": 18.445966,
+    "line": [
+      "Central",
+      "Northern"
+    ]
+  },
+  {
+    "id": "false_bay",
+    "name": "False Bay",
+    "lat": -34.102431,
+    "lon": 18.468792,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "faure",
+    "name": "Faure",
+    "lat": -34.026323,
+    "lon": 18.747291,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "firgrove",
+    "name": "Firgrove",
+    "lat": -34.055532,
+    "lon": 18.792564,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "fisantkraal",
+    "name": "Fisantkraal",
+    "lat": -33.785941,
+    "lon": 18.711433,
+    "line": [
+      "Worcester"
+    ]
+  },
+  {
+    "id": "fish_hoek",
+    "name": "Fish Hoek",
+    "lat": -34.137134,
+    "lon": 18.432552,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "glencairn",
+    "name": "Glencairn",
+    "lat": -34.163462,
+    "lon": 18.43201,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "goodwood",
+    "name": "Goodwood",
+    "lat": -33.914458,
+    "lon": 18.547541,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "harfield_road",
+    "name": "Harfield Road",
+    "lat": -33.988435,
+    "lon": 18.471315,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "hazendal",
+    "name": "Hazendal",
+    "lat": -33.95319,
+    "lon": 18.502489,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "heathfield",
+    "name": "Heathfield",
+    "lat": -34.045897,
+    "lon": 18.465584,
+    "line": [
+      "Cape Flats",
+      "Southern"
+    ]
+  },
+  {
+    "id": "heideveld",
+    "name": "Heideveld",
+    "lat": -33.969931,
+    "lon": 18.561768,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "huguenot",
+    "name": "Huguenot",
+    "lat": -33.729304,
+    "lon": 18.976682,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "kalk_bay",
+    "name": "Kalk Bay",
+    "lat": -34.126267,
+    "lon": 18.45008,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "kapteinsklip_station",
+    "name": "Kapteinsklip Station",
+    "lat": -34.06705,
+    "lon": 18.620732,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "kenilworth",
+    "name": "Kenilworth",
+    "lat": -33.995297,
+    "lon": 18.473023,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "kentemade",
+    "name": "Kentemade",
+    "lat": -33.91301,
+    "lon": 18.497761,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "khayelitsha",
+    "name": "Khayelitsha",
+    "lat": -34.047994,
+    "lon": 18.670786,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "klapmuts",
+    "name": "Klapmuts",
+    "lat": -33.806312,
+    "lon": 18.869738,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "klipheuwel",
+    "name": "Klipheuwel",
+    "lat": -33.699271,
+    "lon": 18.700642,
+    "line": [
+      "Worcester"
+    ]
+  },
+  {
+    "id": "koeberg_road",
+    "name": "Koeberg Road",
+    "lat": -33.925727,
+    "lon": 18.478797,
+    "line": [
+      "Cape Flats",
+      "Central",
+      "Northern"
+    ]
+  },
+  {
+    "id": "koelenhof",
+    "name": "Koelenhof",
+    "lat": -33.873954,
+    "lon": 18.819567,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "kraaifontein",
+    "name": "Kraaifontein",
+    "lat": -33.84708,
+    "lon": 18.723979,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "kuils_river",
+    "name": "Kuils River",
+    "lat": -33.933668,
+    "lon": 18.677695,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "kuyasa",
+    "name": "Kuyasa",
+    "lat": -34.054895,
+    "lon": 18.694753,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "lakeside",
+    "name": "Lakeside",
+    "lat": -34.088459,
+    "lon": 18.462492,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "langa",
+    "name": "Langa",
+    "lat": -33.939042,
+    "lon": 18.52997,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "lansdowne",
+    "name": "Lansdowne",
+    "lat": -33.987592,
+    "lon": 18.50393,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "lavistown",
+    "name": "Lavistown",
+    "lat": -33.943387,
+    "lon": 18.583784,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "lentegeur",
+    "name": "Lentegeur",
+    "lat": -34.034301,
+    "lon": 18.611308,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "lynedoch",
+    "name": "Lynedoch",
+    "lat": -33.981334,
+    "lon": 18.771247,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "maitland",
+    "name": "Maitland",
+    "lat": -33.924697,
+    "lon": 18.487051,
+    "line": [
+      "Cape Flats",
+      "Central",
+      "Northern"
+    ]
+  },
+  {
+    "id": "mandalay",
+    "name": "Mandalay",
+    "lat": -34.018922,
+    "lon": 18.624577,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "mbekweni",
+    "name": "Mbekweni",
+    "lat": -33.674124,
+    "lon": 18.985499,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "mellish",
+    "name": "Mellish",
+    "lat": -33.760149,
+    "lon": 18.71838,
+    "line": [
+      "Worcester"
+    ]
+  },
+  {
+    "id": "melton_rose",
+    "name": "Melton Rose",
+    "lat": -33.989556,
+    "lon": 18.720553,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "mikpunt",
+    "name": "Mikpunt",
+    "lat": -33.722079,
+    "lon": 18.707539,
+    "line": [
+      "Worcester"
+    ]
+  },
+  {
+    "id": "mitchells_plain",
+    "name": "Mitchell's Plain",
+    "lat": -34.04953,
+    "lon": 18.61916,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "monte_vista",
+    "name": "Monte Vista",
+    "lat": -33.891643,
+    "lon": 18.548961,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "mowbray",
+    "name": "Mowbray",
+    "lat": -33.946616,
+    "lon": 18.473901,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "muizenberg",
+    "name": "Muizenberg",
+    "lat": -34.109323,
+    "lon": 18.468066,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "muldersvlei",
+    "name": "Muldersvlei",
+    "lat": -33.831116,
+    "lon": 18.828006,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "mutual",
+    "name": "Mutual",
+    "lat": -33.922263,
+    "lon": 18.513083,
+    "line": [
+      "Central",
+      "Northern"
+    ]
+  },
+  {
+    "id": "ndabeni",
+    "name": "Ndabeni",
+    "lat": -33.929433,
+    "lon": 18.494643,
+    "line": [
+      "Cape Flats",
+      "Central"
+    ]
+  },
+  {
+    "id": "netreg",
+    "name": "Netreg",
+    "lat": -33.952469,
+    "lon": 18.563663,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "newlands",
+    "name": "Newlands",
+    "lat": -33.974217,
+    "lon": 18.467607,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "nolungile",
+    "name": "Nolungile",
+    "lat": -34.016955,
+    "lon": 18.648977,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "nonkqubela",
+    "name": "Nonkqubela",
+    "lat": -34.026967,
+    "lon": 18.663146,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "nyanga",
+    "name": "Nyanga",
+    "lat": -33.992865,
+    "lon": 18.56001,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "observatory",
+    "name": "Observatory",
+    "lat": -33.937957,
+    "lon": 18.471501,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "oosterzee",
+    "name": "Oosterzee",
+    "lat": -33.899876,
+    "lon": 18.607028,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "ottery",
+    "name": "Ottery",
+    "lat": -34.013491,
+    "lon": 18.4952,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "paarden_eiland",
+    "name": "Paarden Eiland",
+    "lat": -33.922474,
+    "lon": 18.466955,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "paarl",
+    "name": "Paarl",
+    "lat": -33.764976,
+    "lon": 18.964731,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "parow",
+    "name": "Parow",
+    "lat": -33.909588,
+    "lon": 18.586241,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "pentech",
+    "name": "Pentech",
+    "lat": -33.934812,
+    "lon": 18.646105,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "philippi",
+    "name": "Philippi",
+    "lat": -34.01334,
+    "lon": 18.585313,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "pinelands",
+    "name": "Pinelands",
+    "lat": -33.939601,
+    "lon": 18.490656,
+    "line": [
+      "Cape Flats",
+      "Central"
+    ]
+  },
+  {
+    "id": "plumstead",
+    "name": "Plumstead",
+    "lat": -34.021943,
+    "lon": 18.469719,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "retreat",
+    "name": "Retreat",
+    "lat": -34.060515,
+    "lon": 18.463551,
+    "line": [
+      "Cape Flats",
+      "Southern"
+    ]
+  },
+  {
+    "id": "rondebosch",
+    "name": "Rondebosch",
+    "lat": -33.962164,
+    "lon": 18.472336,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "rosebank",
+    "name": "Rosebank",
+    "lat": -33.954731,
+    "lon": 18.473145,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "salt_river",
+    "name": "Salt River",
+    "lat": -33.927229,
+    "lon": 18.465014,
+    "line": [
+      "Cape Flats",
+      "Central",
+      "Northern",
+      "Southern"
+    ]
+  },
+  {
+    "id": "sarepta",
+    "name": "Sarepta",
+    "lat": -33.926692,
+    "lon": 18.661232,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "simons_town",
+    "name": "Simon's Town",
+    "lat": -34.186815,
+    "lon": 18.425507,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "simondium",
+    "name": "Simondium",
+    "lat": -33.834025,
+    "lon": 18.953549,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "sir_lowrys_pass_railway_station",
+    "name": "Sir Lowry's Pass Railway Station",
+    "lat": -34.118288,
+    "lon": 18.909936,
+    "line": [
+      "Overberg"
+    ]
+  },
+  {
+    "id": "somerset_west",
+    "name": "Somerset West",
+    "lat": -34.084345,
+    "lon": 18.841468,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "southfield",
+    "name": "Southfield",
+    "lat": -34.032957,
+    "lon": 18.481678,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "spier",
+    "name": "Spier",
+    "lat": -33.972871,
+    "lon": 18.782029,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "st_james",
+    "name": "St James",
+    "lat": -34.1193,
+    "lon": 18.458455,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "steenberg",
+    "name": "Steenberg",
+    "lat": -34.076667,
+    "lon": 18.463673,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "steenbras",
+    "name": "Steenbras",
+    "lat": -34.146204,
+    "lon": 18.941774,
+    "line": [
+      "Overberg"
+    ]
+  },
+  {
+    "id": "stellenbosch",
+    "name": "Stellenbosch",
+    "lat": -33.938817,
+    "lon": 18.849678,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "steurhof",
+    "name": "Steurhof",
+    "lat": -34.029127,
+    "lon": 18.468875,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "stikland",
+    "name": "Stikland",
+    "lat": -33.904477,
+    "lon": 18.657198,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "stock_road",
+    "name": "Stock Road",
+    "lat": -34.014179,
+    "lon": 18.606385,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "strand",
+    "name": "Strand",
+    "lat": -34.114901,
+    "lon": 18.832383,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "sunny_cove",
+    "name": "Sunny Cove",
+    "lat": -34.144301,
+    "lon": 18.437119,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "thornton",
+    "name": "Thornton",
+    "lat": -33.918852,
+    "lon": 18.532503,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "tygerberg",
+    "name": "Tygerberg",
+    "lat": -33.907452,
+    "lon": 18.601293,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "unibell",
+    "name": "Unibell",
+    "lat": -33.937046,
+    "lon": 18.628595,
+    "line": [
+      "Central"
+    ]
+  },
+  {
+    "id": "van_der_stel",
+    "name": "Van der Stel",
+    "lat": -34.094979,
+    "lon": 18.853055,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "vasco",
+    "name": "Vasco",
+    "lat": -33.9112,
+    "lon": 18.558435,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "vlottenburg",
+    "name": "Vlottenburg",
+    "lat": -33.962044,
+    "lon": 18.799883,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "wellington",
+    "name": "Wellington",
+    "lat": -33.634686,
+    "lon": 18.992048,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "wetton",
+    "name": "Wetton",
+    "lat": -34.001981,
+    "lon": 18.501131,
+    "line": [
+      "Cape Flats"
+    ]
+  },
+  {
+    "id": "wintervogel",
+    "name": "Wintervogel",
+    "lat": -33.629558,
+    "lon": 18.670028,
+    "line": [
+      "Worcester"
+    ]
+  },
+  {
+    "id": "wittebome",
+    "name": "Wittebome",
+    "lat": -34.013977,
+    "lon": 18.470768,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "woltemade",
+    "name": "Woltemade",
+    "lat": -33.922133,
+    "lon": 18.507643,
+    "line": [
+      "Northern"
+    ]
+  },
+  {
+    "id": "woodstock",
+    "name": "Woodstock",
+    "lat": -33.925313,
+    "lon": 18.446164,
+    "line": [
+      "Cape Flats",
+      "Central",
+      "Northern",
+      "Southern"
+    ]
+  },
+  {
+    "id": "wynberg",
+    "name": "Wynberg",
+    "lat": -34.004862,
+    "lon": 18.47123,
+    "line": [
+      "Southern"
+    ]
+  },
+  {
+    "id": "ysterplaat",
+    "name": "Ysterplaat",
+    "lat": -33.920021,
+    "lon": 18.4767,
+    "line": [
+      "Central",
+      "Northern"
+    ]
+  }
 ]
