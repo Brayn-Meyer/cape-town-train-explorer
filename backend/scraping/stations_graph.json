@@ -1,0 +1,668 @@
+[
+  {
+    "id": "cape_town",
+    "front": [
+      "woodstock",
+      "woodstock",
+      "woodstock",
+      "woodstock",
+      "woodstock",
+      "woodstock"
+    ],
+    "rear": []
+  },
+  {
+    "id": "woodstock",
+    "front": [
+      "salt_river",
+      "salt_river",
+      "salt_river",
+      "salt_river",
+      "salt_river",
+      "salt_river"
+    ],
+    "rear": [
+      "cape_town",
+      "cape_town",
+      "cape_town",
+      "cape_town",
+      "cape_town",
+      "cape_town"
+    ]
+  },
+  {
+    "id": "salt_river",
+    "front": [
+      "observatory",
+      "maitland",
+      "maitland",
+      "maitland",
+      "maitland",
+      "maitland"
+    ],
+    "rear": [
+      "woodstock",
+      "woodstock",
+      "woodstock",
+      "woodstock",
+      "woodstock",
+      "woodstock"
+    ]
+  },
+  {
+    "id": "observatory",
+    "front": [
+      "mowbray"
+    ],
+    "rear": [
+      "salt_river"
+    ]
+  },
+  {
+    "id": "mowbray",
+    "front": [
+      "rosebank"
+    ],
+    "rear": [
+      "observatory"
+    ]
+  },
+  {
+    "id": "rosebank",
+    "front": [
+      "rondebosch"
+    ],
+    "rear": [
+      "mowbray"
+    ]
+  },
+  {
+    "id": "rondebosch",
+    "front": [
+      "newlands"
+    ],
+    "rear": [
+      "rosebank"
+    ]
+  },
+  {
+    "id": "newlands",
+    "front": [
+      "claremont"
+    ],
+    "rear": [
+      "rondebosch"
+    ]
+  },
+  {
+    "id": "claremont",
+    "front": [
+      "harfield_road"
+    ],
+    "rear": [
+      "newlands"
+    ]
+  },
+  {
+    "id": "harfield_road",
+    "front": [
+      "kenilworth"
+    ],
+    "rear": [
+      "claremont"
+    ]
+  },
+  {
+    "id": "kenilworth",
+    "front": [
+      "wynberg"
+    ],
+    "rear": [
+      "harfield_road"
+    ]
+  },
+  {
+    "id": "wynberg",
+    "front": [
+      "wittebome"
+    ],
+    "rear": [
+      "kenilworth"
+    ]
+  },
+  {
+    "id": "wittebome",
+    "front": [
+      "plumstead"
+    ],
+    "rear": [
+      "wynberg"
+    ]
+  },
+  {
+    "id": "plumstead",
+    "front": [
+      "steurhof"
+    ],
+    "rear": [
+      "wittebome"
+    ]
+  },
+  {
+    "id": "steurhof",
+    "front": [
+      "diep_river"
+    ],
+    "rear": [
+      "plumstead"
+    ]
+  },
+  {
+    "id": "diep_river",
+    "front": [
+      "heathfield"
+    ],
+    "rear": [
+      "steurhof"
+    ]
+  },
+  {
+    "id": "heathfield",
+    "front": [
+      "retreat"
+    ],
+    "rear": [
+      "diep_river"
+    ]
+  },
+  {
+    "id": "retreat",
+    "front": [
+      "lakeside"
+    ],
+    "rear": [
+      "heathfield",
+      "southfield"
+    ]
+  },
+  {
+    "id": "lakeside",
+    "front": [
+      "false_bay"
+    ],
+    "rear": [
+      "retreat"
+    ]
+  },
+  {
+    "id": "false_bay",
+    "front": [
+      "muizenberg"
+    ],
+    "rear": [
+      "lakeside"
+    ]
+  },
+  {
+    "id": "muizenberg",
+    "front": [
+      "st_james"
+    ],
+    "rear": [
+      "false_bay"
+    ]
+  },
+  {
+    "id": "st_james",
+    "front": [
+      "kalk_bay"
+    ],
+    "rear": [
+      "muizenberg"
+    ]
+  },
+  {
+    "id": "kalk_bay",
+    "front": [
+      "fish_hoek"
+    ],
+    "rear": [
+      "st_james"
+    ]
+  },
+  {
+    "id": "fish_hoek",
+    "front": [
+      "sunny_cove"
+    ],
+    "rear": [
+      "kalk_bay"
+    ]
+  },
+  {
+    "id": "sunny_cove",
+    "front": [
+      "glencairn"
+    ],
+    "rear": [
+      "fish_hoek"
+    ]
+  },
+  {
+    "id": "glencairn",
+    "front": [
+      "simons_town"
+    ],
+    "rear": [
+      "sunny_cove"
+    ]
+  },
+  {
+    "id": "simons_town",
+    "front": [],
+    "rear": [
+      "glencairn"
+    ]
+  },
+  {
+    "id": "maitland",
+    "front": [
+      "langa",
+      "ysterplaat",
+      "langa",
+      "langa",
+      "ysterplaat"
+    ],
+    "rear": [
+      "salt_river",
+      "salt_river",
+      "salt_river",
+      "salt_river",
+      "salt_river"
+    ]
+  },
+  {
+    "id": "langa",
+    "front": [
+      "pinelands",
+      "bonteheuwel",
+      "bonteheuwel"
+    ],
+    "rear": [
+      "maitland",
+      "maitland",
+      "maitland"
+    ]
+  },
+  {
+    "id": "pinelands",
+    "front": [
+      "hazendal"
+    ],
+    "rear": [
+      "langa"
+    ]
+  },
+  {
+    "id": "hazendal",
+    "front": [
+      "athlone"
+    ],
+    "rear": [
+      "pinelands"
+    ]
+  },
+  {
+    "id": "athlone",
+    "front": [
+      "crawford"
+    ],
+    "rear": [
+      "hazendal"
+    ]
+  },
+  {
+    "id": "crawford",
+    "front": [
+      "lansdowne"
+    ],
+    "rear": [
+      "athlone"
+    ]
+  },
+  {
+    "id": "lansdowne",
+    "front": [
+      "wetton"
+    ],
+    "rear": [
+      "crawford"
+    ]
+  },
+  {
+    "id": "wetton",
+    "front": [
+      "ottery"
+    ],
+    "rear": [
+      "lansdowne"
+    ]
+  },
+  {
+    "id": "ottery",
+    "front": [
+      "southfield"
+    ],
+    "rear": [
+      "wetton"
+    ]
+  },
+  {
+    "id": "southfield",
+    "front": [
+      "retreat"
+    ],
+    "rear": [
+      "ottery"
+    ]
+  },
+  {
+    "id": "ysterplaat",
+    "front": [
+      "century_city",
+      "century_city"
+    ],
+    "rear": [
+      "maitland",
+      "maitland"
+    ]
+  },
+  {
+    "id": "century_city",
+    "front": [
+      "goodwood",
+      "goodwood"
+    ],
+    "rear": [
+      "ysterplaat",
+      "ysterplaat"
+    ]
+  },
+  {
+    "id": "goodwood",
+    "front": [
+      "vasco",
+      "vasco"
+    ],
+    "rear": [
+      "century_city",
+      "century_city"
+    ]
+  },
+  {
+    "id": "vasco",
+    "front": [
+      "parow",
+      "parow"
+    ],
+    "rear": [
+      "goodwood",
+      "goodwood"
+    ]
+  },
+  {
+    "id": "parow",
+    "front": [
+      "tygerberg",
+      "tygerberg"
+    ],
+    "rear": [
+      "vasco",
+      "vasco"
+    ]
+  },
+  {
+    "id": "tygerberg",
+    "front": [
+      "bellville",
+      "bellville"
+    ],
+    "rear": [
+      "parow",
+      "parow"
+    ]
+  },
+  {
+    "id": "bellville",
+    "front": [
+      "kraaifontein",
+      "kuils_river",
+      "kuils_river"
+    ],
+    "rear": [
+      "tygerberg",
+      "tygerberg"
+    ]
+  },
+  {
+    "id": "kraaifontein",
+    "front": [
+      "klapmuts"
+    ],
+    "rear": [
+      "bellville"
+    ]
+  },
+  {
+    "id": "klapmuts",
+    "front": [
+      "paarl"
+    ],
+    "rear": [
+      "kraaifontein"
+    ]
+  },
+  {
+    "id": "paarl",
+    "front": [
+      "huguenot"
+    ],
+    "rear": [
+      "klapmuts"
+    ]
+  },
+  {
+    "id": "huguenot",
+    "front": [
+      "wellington"
+    ],
+    "rear": [
+      "paarl"
+    ]
+  },
+  {
+    "id": "wellington",
+    "front": [],
+    "rear": [
+      "huguenot"
+    ]
+  },
+  {
+    "id": "kuils_river",
+    "front": [
+      "blackheath",
+      "blackheath"
+    ],
+    "rear": [
+      "bellville",
+      "bellville"
+    ]
+  },
+  {
+    "id": "blackheath",
+    "front": [
+      "melton_rose",
+      "melton_rose"
+    ],
+    "rear": [
+      "kuils_river",
+      "kuils_river"
+    ]
+  },
+  {
+    "id": "melton_rose",
+    "front": [
+      "eersterivier",
+      "eersterivier"
+    ],
+    "rear": [
+      "blackheath",
+      "blackheath"
+    ]
+  },
+  {
+    "id": "eersterivier",
+    "front": [
+      "faure",
+      "faure"
+    ],
+    "rear": [
+      "melton_rose",
+      "melton_rose"
+    ]
+  },
+  {
+    "id": "faure",
+    "front": [
+      "firgrove",
+      "firgrove"
+    ],
+    "rear": [
+      "eersterivier",
+      "eersterivier"
+    ]
+  },
+  {
+    "id": "firgrove",
+    "front": [
+      "somerset_west",
+      "somerset_west"
+    ],
+    "rear": [
+      "faure",
+      "faure"
+    ]
+  },
+  {
+    "id": "somerset_west",
+    "front": [
+      "stellenbosch",
+      "strand"
+    ],
+    "rear": [
+      "firgrove",
+      "firgrove"
+    ]
+  },
+  {
+    "id": "stellenbosch",
+    "front": [],
+    "rear": [
+      "somerset_west"
+    ]
+  },
+  {
+    "id": "strand",
+    "front": [],
+    "rear": [
+      "somerset_west"
+    ]
+  },
+  {
+    "id": "bonteheuwel",
+    "front": [
+      "netreg",
+      "netreg"
+    ],
+    "rear": [
+      "langa",
+      "langa"
+    ]
+  },
+  {
+    "id": "netreg",
+    "front": [
+      "nyanga",
+      "nyanga"
+    ],
+    "rear": [
+      "bonteheuwel",
+      "bonteheuwel"
+    ]
+  },
+  {
+    "id": "nyanga",
+    "front": [
+      "philippi",
+      "philippi"
+    ],
+    "rear": [
+      "netreg",
+      "netreg"
+    ]
+  },
+  {
+    "id": "philippi",
+    "front": [
+      "stock_road",
+      "stock_road"
+    ],
+    "rear": [
+      "nyanga",
+      "nyanga"
+    ]
+  },
+  {
+    "id": "stock_road",
+    "front": [
+      "nolungile",
+      "kapteinsklip"
+    ],
+    "rear": [
+      "philippi",
+      "philippi"
+    ]
+  },
+  {
+    "id": "nolungile",
+    "front": [
+      "nonkqubela"
+    ],
+    "rear": [
+      "stock_road"
+    ]
+  },
+  {
+    "id": "nonkqubela",
+    "front": [
+      "khayelitsha_(chris_hani)"
+    ],
+    "rear": [
+      "nolungile"
+    ]
+  },
+  {
+    "id": "khayelitsha_(chris_hani)",
+    "front": [],
+    "rear": [
+      "nonkqubela"
+    ]
+  },
+  {
+    "id": "kapteinsklip",
+    "front": [],
+    "rear": [
+      "stock_road"
+    ]
+  }
+]
