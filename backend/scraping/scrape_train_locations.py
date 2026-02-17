@@ -2,6 +2,10 @@ import overpy
 import json
 from pathlib import Path
 
+def generate_id(name):
+    """Generate a URL-safe ID from station name."""
+    return name.lower().replace(" ", "_").replace("'", "").replace("-", "_")
+
 def load_line_map(json_file="stations_by_line.json"):
     json_path = Path(__file__).resolve().parent / json_file
     try:
@@ -41,10 +45,11 @@ def clean_stations(stations):
         
         seen.add(key)
         cleaned.append({
+            "id": generate_id(name),
             "name": name,
             "lat": round(lat, 6),
             "lon": round(lon, 6),
-            "lines": LINE_MAP.get(name, ["Unknown"])  # attach line info
+            "line": LINE_MAP.get(name, ["Unknown"])  # attach line info
         })
     
     cleaned.sort(key=lambda x: x["name"].lower())
@@ -87,4 +92,4 @@ export_to_json(cleaned_stations)
 
 print("\nSample of cleaned data:")
 for s in cleaned_stations[:5]:
-    print(f"  - {s['name']}: ({s['lat']}, {s['lon']}) on {', '.join(s['lines'])}")
+    print(f"  - {s['name']}: ({s['lat']}, {s['lon']}) on {', '.join(s['line'])}")
