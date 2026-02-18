@@ -2,77 +2,74 @@ import { useCallback, useMemo, useState } from "react";
 import type { Station, Schedule, RoutesGeoJSON } from "@/types/transit";
 import stationsData from "@/data/stations.json";
 import schedulesData from "@/data/schedules.json";
+import stationConnectionsData from "@/data/station_connections.json";
 import { ALL_LINES, LINE_COLORS } from "@/types/transit";
 
-function distanceSquared(a: Station, b: Station): number {
-  const dLat = a.lat - b.lat;
-  const dLon = a.lon - b.lon;
-  return dLat * dLat + dLon * dLon;
+type StationConnection = {
+  id: string;
+  front: string[];
+  rear: string[];
+};
+
+const STATION_ID_ALIASES: Record<string, string> = {
+  eersterivier: "eerste_river",
+  kapteinsklip: "kapteinsklip_station",
+};
+
+function normalizeStationId(id: string): string {
+  return STATION_ID_ALIASES[id] ?? id;
 }
 
-function buildLineSegments(lineStations: Station[]): [Station, Station][] {
-  if (lineStations.length < 2) {
-    return [];
-  }
+function buildRoutesFromConnections(
+  stations: Station[],
+  connections: StationConnection[]
+): RoutesGeoJSON {
+  const stationById = new Map(stations.map((station) => [station.id, station]));
+  const seenSegments = new Set<string>();
+  const features: RoutesGeoJSON["features"] = [];
 
-  const segments: [Station, Station][] = [];
-  const visited = new Set<number>([0]);
+  for (const connection of connections) {
+    const fromStation = stationById.get(normalizeStationId(connection.id));
+    if (!fromStation) {
+      continue;
+    }
 
-  while (visited.size < lineStations.length) {
-    let bestFrom = -1;
-    let bestTo = -1;
-    let bestDistance = Number.POSITIVE_INFINITY;
+    const neighbors = [...connection.front, ...connection.rear];
 
-    for (const fromIndex of visited) {
-      for (let toIndex = 0; toIndex < lineStations.length; toIndex += 1) {
-        if (visited.has(toIndex)) {
-          continue;
-        }
+    for (const neighborId of neighbors) {
+      const toStation = stationById.get(normalizeStationId(neighborId));
+      if (!toStation || fromStation.id === toStation.id) {
+        continue;
+      }
 
-        const candidateDistance = distanceSquared(
-          lineStations[fromIndex],
-          lineStations[toIndex]
-        );
+      const segmentKey = [fromStation.id, toStation.id].sort().join("::");
+      if (seenSegments.has(segmentKey)) {
+        continue;
+      }
+      seenSegments.add(segmentKey);
 
-        if (candidateDistance < bestDistance) {
-          bestDistance = candidateDistance;
-          bestFrom = fromIndex;
-          bestTo = toIndex;
-        }
+      const sharedLines = ALL_LINES.filter(
+        (line) => fromStation.line.includes(line) && toStation.line.includes(line)
+      );
+
+      for (const line of sharedLines) {
+        features.push({
+          type: "Feature",
+          properties: {
+            line,
+            color: LINE_COLORS[line] || "#888888",
+          },
+          geometry: {
+            type: "LineString",
+            coordinates: [
+              [fromStation.lon, fromStation.lat],
+              [toStation.lon, toStation.lat],
+            ],
+          },
+        });
       }
     }
-
-    if (bestFrom === -1 || bestTo === -1) {
-      break;
-    }
-
-    segments.push([lineStations[bestFrom], lineStations[bestTo]]);
-    visited.add(bestTo);
   }
-
-  return segments;
-}
-
-function buildRoutesFromStations(stations: Station[]): RoutesGeoJSON {
-  const features = ALL_LINES.flatMap((line) => {
-    const lineStations = stations.filter((station) => station.line.includes(line));
-    const segments = buildLineSegments(lineStations);
-
-    return segments.map(([fromStation, toStation]) => ({
-      type: "Feature" as const,
-      properties: {
-        line,
-        color: LINE_COLORS[line] || "#888888",
-      },
-      geometry: {
-        type: "LineString" as const,
-        coordinates: [
-          [fromStation.lon, fromStation.lat] as [number, number],
-          [toStation.lon, toStation.lat] as [number, number],
-        ],
-      },
-    }));
-  });
 
   return {
     type: "FeatureCollection",
@@ -86,7 +83,11 @@ export function useTransitData() {
 
   const stations = stationsData as Station[];
   const schedules = schedulesData as Schedule[];
-  const routes = useMemo(() => buildRoutesFromStations(stations), [stations]);
+  const stationConnections = stationConnectionsData as StationConnection[];
+  const routes = useMemo(
+    () => buildRoutesFromConnections(stations, stationConnections),
+    [stations, stationConnections]
+  );
 
   const filteredStations = useMemo(() => {
     return stations.filter((s) => {
