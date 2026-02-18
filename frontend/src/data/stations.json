@@ -99,7 +99,7 @@
     "lat": -33.861498,
     "lon": 18.528633,
     "line": [
-      "Cape Flats"
+      "IDK"
     ]
   },
   {
@@ -791,15 +791,6 @@
     ]
   },
   {
-    "id": "simondium",
-    "name": "Simondium",
-    "lat": -33.834025,
-    "lon": 18.953549,
-    "line": [
-      "Northern"
-    ]
-  },
-  {
     "id": "sir_lowrys_pass_railway_station",
     "name": "Sir Lowry's Pass Railway Station",
     "lat": -34.118288,
@@ -1042,7 +1033,6 @@
     "lat": -33.920021,
     "lon": 18.4767,
     "line": [
-      "Central",
       "Northern"
     ]
   }
