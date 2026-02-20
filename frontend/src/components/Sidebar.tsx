@@ -8,6 +8,8 @@ interface SidebarProps {
   setSearchQuery: (q: string) => void;
   activeLines: string[];
   toggleLine: (line: string) => void;
+  showConnectionLines: boolean;
+  toggleConnectionLines: () => void;
   stations: Station[];
   onStationClick: (id: string) => void;
 }
@@ -17,6 +19,8 @@ export function Sidebar({
   setSearchQuery,
   activeLines,
   toggleLine,
+  showConnectionLines,
+  toggleConnectionLines,
   stations,
   onStationClick,
 }: SidebarProps) {
@@ -74,6 +78,13 @@ export function Sidebar({
             );
           })}
         </div>
+
+        <button
+          onClick={toggleConnectionLines}
+          className="mt-3 w-full rounded-md border border-sidebar-border px-3 py-2 text-left text-xs font-semibold transition-colors hover:bg-sidebar-accent"
+        >
+          {showConnectionLines ? "Hide station links" : "Show station links"}
+        </button>
       </div>
 
       {/* Station list */}

@@ -80,6 +80,7 @@ function buildRoutesFromConnections(
 export function useTransitData() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeLines, setActiveLines] = useState<string[]>([...ALL_LINES]);
+  const [showConnectionLines, setShowConnectionLines] = useState(false);
 
   const stations = stationsData as Station[];
   const schedules = schedulesData as Schedule[];
@@ -115,13 +116,19 @@ export function useTransitData() {
     );
   }, []);
 
+  const toggleConnectionLines = useCallback(() => {
+    setShowConnectionLines((prev) => !prev);
+  }, []);
+
   return {
     stations: filteredStations,
     routes: filteredRoutes,
+    showConnectionLines,
     searchQuery,
     setSearchQuery,
     activeLines,
     toggleLine,
+    toggleConnectionLines,
     getSchedulesForStation,
     allStations: stations,
   };
