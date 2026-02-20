@@ -282,7 +282,8 @@
   {
     "id": "pinelands",
     "front": [
-      "hazendal"
+      "hazendal",
+      "langa"
     ],
     "rear": [
       "ndabeni"
@@ -357,7 +358,8 @@
       "thornton"
     ],
     "rear": [
-      "maitland"
+      "maitland",
+      "ysterplaat"
     ]
   },
   {
@@ -548,7 +550,8 @@
   {
     "id": "ysterplaat",
     "front": [
-      "kentemade"
+      "kentemade",
+      "woltemade"
     ],
     "rear": [
       "paarden_eiland"
@@ -711,7 +714,8 @@
       "bonteheuwel"
     ],
     "rear": [
-      "mutual"
+      "mutual",
+      "pinelands"
     ]
   },
   {

@@ -1,98 +1,151 @@
-import requests
 import json
-import time
-import random
-
-# Cycle through multiple Overpass servers for resilience
-OVERPASS_SERVERS = [
-    "https://overpass.kumi.systems/api/interpreter",
-    "https://overpass.openstreetmap.fr/api/interpreter",
-    "https://overpass-api.de/api/interpreter",
-    "https://overpass.nchc.org.tw/api/interpreter"
-]
 
 def generate_id(name):
     return name.lower().replace(" ", "_").replace("'", "").replace("-", "_")
 
-def run_query(query, max_retries=3):
-    for attempt in range(max_retries):
-        for server in OVERPASS_SERVERS:
-            try:
-                response = requests.post(server, data={'data': query}, timeout=90)
-                if response.status_code == 200 and response.text.strip():
-                    return response.json()
-                else:
-                    print(f"Server {server} returned status {response.status_code}")
-            except Exception as e:
-                print(f"Error on {server}: {e}")
-        wait = 5 * (attempt + 1) + random.randint(0, 5)
-        print(f"Retrying in {wait}s...")
-        time.sleep(wait)
-    return None
-
-def fetch_stations(relation_id):
-    # Step 1: Get relation members
-    query_relation = f"""
-    [out:json][timeout:25];
-    relation({relation_id});
-    out body;
-    """
-    data = run_query(query_relation)
-    if not data or not data.get("elements"):
-        print(f"No relation data for {relation_id}")
-        return []
-
-    members = data["elements"][0].get("members", [])
-    stop_ids = [m["ref"] for m in members if m["type"] == "node" and m.get("role") == "stop"]
-
-    if not stop_ids:
-        print(f"No stop nodes for relation {relation_id}")
-        return []
-
-    # Step 2: Fetch node details
-    ids_str = ",".join(map(str, stop_ids))
-    query_nodes = f"""
-    [out:json][timeout:25];
-    node({ids_str});
-    out body;
-    """
-    data_nodes = run_query(query_nodes)
-    if not data_nodes or not data_nodes.get("elements"):
-        print(f"No node data for relation {relation_id}")
-        return []
-
-    id_to_name = {}
-    for element in data_nodes.get("elements", []):
-        name = element.get("tags", {}).get("name")
-        if name:
-            id_to_name[element["id"]] = name
-
-    stations = [id_to_name[i] for i in stop_ids if i in id_to_name]
-    return stations
+def append_unique(items, value):
+    if value not in items:
+        items.append(value)
 
 def build_graph(lines):
     graph = {}
     for line in lines:
         for i, station in enumerate(line):
-            sid = generate_id(station)
+            sid = station
             if sid not in graph:
                 graph[sid] = {"id": sid, "front": [], "rear": []}
             if i < len(line) - 1:
-                graph[sid]["front"].append(generate_id(line[i+1]))
+                append_unique(graph[sid]["front"], line[i+1])
             if i > 0:
-                graph[sid]["rear"].append(generate_id(line[i-1]))
+                append_unique(graph[sid]["rear"], line[i-1])
     return graph
 
 def main():
-    # Relation IDs for Cape Town commuter corridors
-    relation_ids = [948941, 952458, 952469, 952470, 952471, 956847, 956849, 956850, 957035]
+    # Manual station lists for Cape Town commuter corridors
+    cape_town_to_salt_river = [
+        "cape_town","woodstock","salt_river"]
+    salt_river_to_simons_town = [
+        "salt_river","observatory","mowbray","rosebank","rondebosch",
+        "newlands","claremont","harfield_road","kenilworth","wynberg","wittebome","plumstead",
+        "steurhof","diep_river","heathfield","retreat","steenberg","lakeside","false_bay","muizenberg",
+        "st_james","kalk_bay","fish_hoek","sunny_cove","glencairn","simons_town"
+    ]
 
-    lines = []
-    for rid in relation_ids:
-        stations = fetch_stations(rid)
-        print(f"Relation {rid}: {len(stations)} stations -> {stations}")
-        lines.append(stations)
-        time.sleep(10)  # throttle requests
+    salt_river_to_maitland = [
+        "salt_river","koeberg_road","maitland"]
+    
+    maitland_to_retreat = [
+        "maitland","ndabeni","pinelands","hazendal","athlone","crawford","lansdowne","wetton",
+        "ottery","southfield","heathfield","retreat"
+    ]
+
+    maitland_to_bellville = [
+        "maitland","woltemade","thornton","goodwood", "vasco", "elsies_river", "parow", "tygerberg", "bellville"
+    ]
+
+    bellville_to_eerste_river = [
+        "bellville","kuils_river","blackheath","melton_rose","eerste_river"
+    ]
+
+    eerste_river_to_muldersvlei = [
+        "eerste_river","lynedoch","spier","vlottenburg","stellenbosch","du_toit","koelenhof","muldersvlei" 
+    ]
+
+    cape_town_to_bellville = [
+        "cape_town","esplanade","paarden_eiland","ysterplaat","kentemade","century_city","acacia_park",
+        "monte_vista","de_grendel","avondale","oosterzee","bellville"
+    ]
+    bellville_to_muldersvlei = [
+        "bellville","stikland","brackenfell","eikenfontein","kraaifontein","muldersvlei"
+    ]
+
+    eerste_river_to_strand = [
+        "eerste_river","faure","firgrove","somerset_west","van_der_stel","strand"
+    ]
+
+    maitland_to_bonteheuwel = [
+        "maitland","mutual","langa","bonteheuwel"
+    ]
+
+    bonteheuwel_to_bellville = [
+        "bonteheuwel","lavistown","belhar","unibell","pentech","sarepta","bellville"
+    ]
+
+    bonteheuwel_to_philippi = [
+        "bonteheuwel","netreg","heideveld","nyanga","philippi"
+    ]
+
+    philippi_to_khayelitsha = [
+        "philippi","stock_road","mandalay","nolungile","nonkqubela","khayelitsha","kuyasa","chris_hani"
+    ]
+
+    philippi_to_kapteinsklip = [
+        "philippi","lentegeur","mitchells_plain","kapteinsklip_station"
+    ]
+
+    muldersvlei_to_wellington = [
+        "muldersvlei","klapmuts","paarl","huguenot","dal_josafat","mbekweni","wellington"
+    ]
+
+    pinelands_to_langa = [
+        "pinelands", "langa"
+    ]
+
+    ysterplaat_to_woltemade = [
+        "ysterplaat", "woltemade"
+    ]
+
+    # northern_line_muldersvlei = [
+    #     "bellville","kuils_river","blackheath","melton_rose","eerste_river","lynedoch","spier",
+    #     "vlottenburg","stellenbosch","du_toit","koelenhof","muldersvlei"
+    # ]
+
+    # northern_line_strand = [
+    #     "bellville","kuils_river","blackheath","melton_rose","eerste_river","faure","firgrove",
+    #     "somerset_west","van_der_stel","strand"
+    # ]
+
+    # northern_line_bellvile = [
+    #     "cape_town","woodstock","salt_river","koeberg_road","maitland","maitland","woltemade","thornton",
+    #     "goodwood","vasco","elsies_river","parow","tygerberg","bellville"
+    # ]
+
+    # central_line_khayelitsha = [
+    #     "cape_town","woodstock","salt_river","maitland","mutual","langa","bonteheuwel","netreg","heideveld",
+    #     "nyanga","philippi","stock_road","mandalay","nolungile","nonkqubela","khayelitsha","kuyasa","chris_hani"
+    # ]
+
+    # central_line_kapteinsklip = [
+    #     "cape_town","woodstock","salt_river","koeberg_road","maitland","mutual","langa","bonteheuwel","netreg","heideveld",
+    #     "nyanga","philippi","lentegeur","mitchells_plain","kapteinsklip_station"
+    # ]
+
+    # central_line_bellville = [
+    #     "cape_town","woodstock","salt_river","koeberg_road","maitland","mutual","langa","bonteheuwel","lavistown","belhar",
+    #     "unibell","pentech","sarepta","bellville"
+    # ]
+
+    # Combine all lines
+    lines = [
+        cape_town_to_salt_river,
+        salt_river_to_simons_town,
+        salt_river_to_maitland,
+        maitland_to_retreat,
+        maitland_to_bellville,
+        bellville_to_eerste_river,
+        eerste_river_to_muldersvlei,
+        cape_town_to_bellville,
+        bellville_to_muldersvlei,
+        eerste_river_to_strand,
+        maitland_to_bonteheuwel,
+        bonteheuwel_to_bellville,
+        bonteheuwel_to_philippi,
+        philippi_to_khayelitsha,
+        philippi_to_kapteinsklip,
+        muldersvlei_to_wellington,
+        pinelands_to_langa,
+        ysterplaat_to_woltemade
+    ]
 
     graph = build_graph(lines)
 
