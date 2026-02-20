@@ -8,10 +8,12 @@ const Index = () => {
   const {
     stations,
     routes,
+    showConnectionLines,
     searchQuery,
     setSearchQuery,
     activeLines,
     toggleLine,
+    toggleConnectionLines,
     getSchedulesForStation,
   } = useTransitData();
 
@@ -27,6 +29,8 @@ const Index = () => {
           setSearchQuery={setSearchQuery}
           activeLines={activeLines}
           toggleLine={toggleLine}
+          showConnectionLines={showConnectionLines}
+          toggleConnectionLines={toggleConnectionLines}
           stations={stations}
           onStationClick={(id) => setSelectedStationId(id)}
         />
@@ -41,6 +45,8 @@ const Index = () => {
               setSearchQuery={setSearchQuery}
               activeLines={activeLines}
               toggleLine={toggleLine}
+              showConnectionLines={showConnectionLines}
+              toggleConnectionLines={toggleConnectionLines}
               stations={stations}
               onStationClick={(id) => {
                 setSelectedStationId(id);
@@ -64,6 +70,7 @@ const Index = () => {
         <TrainMap
           stations={stations}
           routes={routes}
+          showConnectionLines={showConnectionLines}
           getSchedulesForStation={getSchedulesForStation}
           selectedStationId={selectedStationId}
         />

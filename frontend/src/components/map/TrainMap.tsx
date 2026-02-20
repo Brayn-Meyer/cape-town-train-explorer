@@ -13,6 +13,7 @@ import type { PathOptions } from "leaflet";
 interface TrainMapProps {
   stations: Station[];
   routes: RoutesGeoJSON;
+  showConnectionLines: boolean;
   getSchedulesForStation: (id: string) => Schedule[];
   selectedStationId?: string | null;
 }
@@ -93,6 +94,7 @@ function ResizeMap({ watch }: { watch?: unknown }) {
 export function TrainMap({
   stations,
   routes,
+  showConnectionLines,
   getSchedulesForStation,
   selectedStationId,
 }: TrainMapProps) {
@@ -147,21 +149,23 @@ export function TrainMap({
           Train Routes
       =========================== */}
 
-      <GeoJSON
-        key={routes.features
-          .map((f) => f.properties.line)
-          .join(",")}
-        data={routes as any}
-        style={(feature) => {
-          const line = feature?.properties?.line || "";
+      {showConnectionLines && (
+        <GeoJSON
+          key={routes.features
+            .map((f) => f.properties.line)
+            .join(",")}
+          data={routes as any}
+          style={(feature) => {
+            const line = feature?.properties?.line || "";
 
-          return {
-            color: LINE_COLORS[line] || "#888",
-            weight: 4,
-            opacity: 0.85,
-          } as PathOptions;
-        }}
-      />
+            return {
+              color: LINE_COLORS[line] || "#888",
+              weight: 4,
+              opacity: 0.85,
+            } as PathOptions;
+          }}
+        />
+      )}
 
       {/* ===========================
           Stations
